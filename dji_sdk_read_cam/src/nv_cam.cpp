@@ -222,14 +222,14 @@ int main(int argc, char **argv)
 	cam_info.height = IMAGE_H/2;
 	cam_info.width = IMAGE_W/2;
 	cam_info.distortion_model = "";
-	cam_info.D.push_back(-0.1297646493949856);
-	cam_info.D.push_back(0.0946885697670611);
-	cam_info.D.push_back(-0.0002935002712265514);
-	cam_info.D.push_back(-0.00022663675362156343);
+	cam_info.D.push_back(0.082783);
+	cam_info.D.push_back(-0.128501);
+	cam_info.D.push_back(-0.004586);
+	cam_info.D.push_back(0.003366);
 	cam_info.D.push_back(0.0);
-	cam_info.K = {388.40923066779754, 0.0, 318.06257844065226, 0.0, 518.1538449374815, 241.17339016626644, 0.0, 0.0, 1.0};
+	cam_info.K = {444.545653, 0.0, 322.613492, 0.0, 594.101175, 222.437878, 0.0, 0.0, 1.0};
 	cam_info.R = {1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0};
-	cam_info.P = {373.5429992675781, 0.0, 317.51131336952494, 0.0, 0.0, 504.4360656738281, 240.6131009245937, 0.0, 0.0, 0.0, 1.0, 0.0};
+	cam_info.P = {447.826599, 0.0, 324.653395, 0.0, 0.0, 602.210876, 220.106462, 0.0, 0.0, 0.0, 1.0, 0.0};
 	cam_info.binning_x = 0;
 	cam_info.binning_x = 0;
 
